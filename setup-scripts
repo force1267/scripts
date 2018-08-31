@@ -1,0 +1,12 @@
+# setup scripts
+
+mkdir $HOME/scripts
+cp ./* $HOME/scripts
+rm $HOME/.gitignore
+rm -rf $HOME/.git
+rm $HOME/README.md
+rm $HOME/setup-scripts
+
+cat "export PATH=$HOME/scripts:$PATH" > $HOME/
+
+echo "Done. restart the process"

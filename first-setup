@@ -1,12 +1,19 @@
+# setup termux
+
 apt update
+
 apt install \
 	micro \
+	nano \
 	git \
 	g++ \
 	openssh \
 	nodejs-current \
 	wget \
 	curl \
+	tsu \
 	-y
-apt upgrade
+
+apt upgrade -y
+
 termux-setup-storage
