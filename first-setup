@@ -1,0 +1,12 @@
+apt update
+apt install \
+	micro \
+	git \
+	g++ \
+	openssh \
+	nodejs-current \
+	wget \
+	curl \
+	-y
+apt upgrade
+termux-setup-storage

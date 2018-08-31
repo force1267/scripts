@@ -1,0 +1,4 @@
+# remount with rw access
+# rw /system
+
+sudo /system/bin/mount -o rw,remount $1

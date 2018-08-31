@@ -1,0 +1,4 @@
+# remount with ro access
+# ro /system
+
+sudo /system/bin/mount -o ro,remount $1
